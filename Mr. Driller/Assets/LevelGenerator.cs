@@ -4,21 +4,37 @@ using UnityEngine;
 
 public class LevelGenerator : MonoBehaviour {
 
-	public GameObject platformPrefab;
+	public GameObject greenBlockPrefab;
 
-	public int numberOfPlatforms;
-	public float levelWidth = 3f;
-	public float minY = .2f;
-	public float maxY = 1.5f;
+    public GameObject playerPrefab;
+    GameObject player;
+
+    public int levelWidth = 9; // Number of blocks in a row; 9 in PSX version
+    public int levelSubHeight = 6; // Number of rows below the player; 6 in PSX version
+    public int levelTotalHeight = 12; // Number of rows on screen; 12 in PSX version
+
+    // Block dimensions in pixel units
 
 	// Use this for initialization
 	void Start () {
-		Vector3 spawnPosition = new Vector3();
-		for (int i = 0; i < numberOfPlatforms; i++) {
-			spawnPosition.x += Random.Range(-levelWidth, levelWidth);
-			spawnPosition.y += Random.Range(minY, maxY);
-			Instantiate(platformPrefab, spawnPosition, Quaternion.identity);
-		}
+
+        greenBlockPrefab.SetActive(false); // Deactivate prefab so it does not affect the scene
+
+        playerPrefab.SetActive(false);
+
+        // Spawn initial blocks
+        for (int row = 0; row < levelSubHeight; row++) {
+            for (int col = 0; col < levelWidth; col++) {
+                Vector3 spawnPosition = new Vector3(col, -row);
+                GameObject block = Instantiate(greenBlockPrefab, spawnPosition, Quaternion.identity);
+                block.SetActive(true);
+            }
+        }
+
+        // Spawn player
+        this.player = Instantiate(playerPrefab, new Vector3(4, 1), Quaternion.identity);
+        this.player.SetActive(true);
+        
 	}
 	
 	// Update is called once per frame

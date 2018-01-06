@@ -14,7 +14,13 @@ public class Player : MonoBehaviour {
 	}
 	
 	void Update () {
-		movement = Input.GetAxis("Horizontal") * speed;
+        if (Input.GetKey("right")) {
+            movement = speed;
+        } else if (Input.GetKey("left")) {
+            movement = -speed;
+        } else {
+            movement = 0;
+        }
 	}
 
 	void FixedUpdate() {
