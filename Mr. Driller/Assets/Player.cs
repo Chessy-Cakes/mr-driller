@@ -32,6 +32,19 @@ public class Player : MonoBehaviour
 			movement = 0;
 		}
 
+        if (Input.GetKey ("down")) { // Drill down
+            // Destroy the block immediately under the player, if there is one
+            // TODO prvent player from drilling if they are in a falling state
+            Debug.DrawRay(rb.position, Vector2.down, Color.magenta);
+            RaycastHit2D hit = Physics2D.Raycast(rb.position + Vector2.down, Vector2.down, 0f);
+            if (hit.collider != null) {
+                print(hit.collider.gameObject.name);
+                if (hit.collider.gameObject.name == "GreenBlock(Clone)") {
+                    Object.Destroy(hit.collider.gameObject);
+                }
+            }
+        }
+
         // Check if we are running on iOS, Android, Windows Phone 8 or Unity iPhone
         #if UNITY_IOS || UNITY_ANDROID || UNITY_WP8 || UNITY_IPHONE
 
