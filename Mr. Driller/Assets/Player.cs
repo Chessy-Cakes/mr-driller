@@ -96,10 +96,11 @@ public class Player : MovingObject
 			rb.velocity = velocity;
 		}
 
-		if (vertical != 0) {
+		if (vertical != 0 && rb.velocity.y == 0) {
 			// AttemptMove<Component> (horizontal, vertical);
-			// Destroy the block immediately under the player, if there is one
-			// TODO prvent player from drilling if they are in a falling state
+
+            // If player is not falling (velocity.y == 0)
+			// Destroy the block immediately under the player
 			Debug.DrawRay (rb.position, Vector2.down, Color.magenta);
 			RaycastHit2D hit = Physics2D.Raycast (rb.position + Vector2.down, Vector2.down, 0f);
 			if (hit.collider != null) {
