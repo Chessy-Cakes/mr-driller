@@ -82,14 +82,17 @@ public class Player : MovingObject
 					// If y is greater than zero, set horizontal to 1, otherwise set it to -1
 					vertical = y > 0 ? 0 : -speed;
 				}
-			} else {
-				// horizontal = 0;
-				// vertical = 0;
 			}
 		}
 		#endif
 			
 		if (horizontal != 0) { // || vertical != 0
+			if (horizontal > 0) {
+				DestroyBlock (Vector2.right);
+			} else {
+				DestroyBlock (Vector2.left);
+			}
+
 			// AttemptMove<Component> (horizontal, vertical);
 			Vector2 velocity = rb.velocity;
 			velocity.x = horizontal;
@@ -98,16 +101,19 @@ public class Player : MovingObject
 
 		if (vertical != 0 && rb.velocity.y == 0) {
 			// AttemptMove<Component> (horizontal, vertical);
+			DestroyBlock(Vector2.down);
+		}
+	}
 
-            // If player is not falling (velocity.y == 0)
-			// Destroy the block immediately under the player
-			Debug.DrawRay (rb.position, Vector2.down, Color.magenta);
-			RaycastHit2D hit = Physics2D.Raycast (rb.position + Vector2.down, Vector2.down, 0f);
-			if (hit.collider != null) {
-				print (hit.collider.gameObject.name);
-				if (hit.collider.gameObject.name == "GreenBlock(Clone)") {
-					Object.Destroy (hit.collider.gameObject);
-				}
+	protected void DestroyBlock(Vector2 vect) {
+		// If player is not falling (velocity.y == 0)
+		// Destroy the block immediately under the player
+		Debug.DrawRay (rb.position, vect, Color.magenta);
+		RaycastHit2D hit = Physics2D.Raycast (rb.position + vect, vect, 0f);
+		if (hit.collider != null) {
+			print (hit.collider.gameObject.name);
+			if (hit.collider.gameObject.name == "GreenBlock(Clone)") {
+				Object.Destroy (hit.collider.gameObject);
 			}
 		}
 	}
