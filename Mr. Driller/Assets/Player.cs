@@ -86,23 +86,7 @@ public class Player : MovingObject
 		}
 		#endif
 			
-		if (horizontal != 0) { // || vertical != 0
-			if (horizontal > 0) {
-				DestroyBlock (Vector2.right);
-			} else {
-				DestroyBlock (Vector2.left);
-			}
-
-			// AttemptMove<Component> (horizontal, vertical);
-			Vector2 velocity = rb.velocity;
-			velocity.x = horizontal;
-			rb.velocity = velocity;
-		}
-
-		if (vertical != 0 && rb.velocity.y == 0) {
-			// AttemptMove<Component> (horizontal, vertical);
-			DestroyBlock(Vector2.down);
-		}
+		AttemptMove<Component> (horizontal, vertical);
 	}
 
 	protected void DestroyBlock(Vector2 vect) {
@@ -121,15 +105,22 @@ public class Player : MovingObject
 	protected override void AttemptMove <T> (int xDir, int yDir)
 	{
 		base.AttemptMove <T> (xDir, yDir);
-		// Add actions here to be made after the move attempt was made
-		RaycastHit2D hit;
 	}
 
-	protected override void OnCantMove <T> (T component)
+	protected override void OnCantMove (int xDir, int yDir)
 	{
-		// Set hitWall to equal the component passed in as a parameter.
-		GameObject hitBlock = component as GameObject;
-		GameObject.Destroy (component.gameObject);
+		if (xDir < 0) {
+			DestroyBlock (Vector2.left);
+		} else if (xDir > 0) {
+			DestroyBlock (Vector2.right);
+		}
+
+		if (yDir < 0) {
+			DestroyBlock (Vector2.down);
+		} else if (yDir > 0) {
+			DestroyBlock (Vector2.up);
+		}
+
 	}
 		
 }
