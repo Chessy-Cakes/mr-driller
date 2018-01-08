@@ -13,7 +13,7 @@ public class Player : MovingObject
 
 	public int speed = 1;
 
-	protected override void Start () 
+	protected override void Start ()
 	{
 		rb = GetComponent<Rigidbody2D> ();
 		base.Start ();
@@ -97,17 +97,27 @@ public class Player : MovingObject
 		}
 
 		if (vertical != 0) {
-			AttemptMove<Component> (horizontal, vertical);
+			// AttemptMove<Component> (horizontal, vertical);
+			// Destroy the block immediately under the player, if there is one
+			// TODO prvent player from drilling if they are in a falling state
+			Debug.DrawRay (rb.position, Vector2.down, Color.magenta);
+			RaycastHit2D hit = Physics2D.Raycast (rb.position + Vector2.down, Vector2.down, 0f);
+			if (hit.collider != null) {
+				print (hit.collider.gameObject.name);
+				if (hit.collider.gameObject.name == "GreenBlock(Clone)") {
+					Object.Destroy (hit.collider.gameObject);
+				}
+			}
 		}
 	}
-		
+
 	protected override void AttemptMove <T> (int xDir, int yDir)
 	{
 		base.AttemptMove <T> (xDir, yDir);
 		// Add actions here to be made after the move attempt was made
 		RaycastHit2D hit;
 	}
-		
+
 	protected override void OnCantMove <T> (T component)
 	{
 		// Set hitWall to equal the component passed in as a parameter.
