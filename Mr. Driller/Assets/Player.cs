@@ -86,6 +86,12 @@ public class Player : MovingObject
 		}
 		#endif
 			
+		// Prevent movement if character is falling
+		// TODO: Adjust this portion to work if player is climbing up one set of rocks (eg. up-right)
+		if (rb.velocity.y != 0) {
+			horizontal = 0;
+		}
+
 		AttemptMove<Component> (horizontal, vertical);
 	}
 
