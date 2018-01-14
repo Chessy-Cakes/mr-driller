@@ -98,6 +98,8 @@ public class Player : MovingObject
 	protected void DestroyBlock(Vector2 vect) {
 		// If player is not falling (velocity.y == 0)
 		// Destroy the block immediately under the player
+
+        // TODO: Add logic for "X" blocks which need to be drilled multiple times
 		Debug.DrawRay (rb.position, vect, Color.magenta);
 		RaycastHit2D hit = Physics2D.Raycast (rb.position + vect, vect, 0f);
 		if (hit.collider != null) {
