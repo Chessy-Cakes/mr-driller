@@ -7,7 +7,6 @@ public class Player : MovingObject
 
 	// Used to store location of screen touch origin for mobile controls.
 	private Vector2 touchOrigin = -Vector2.one;
-	Rigidbody2D rb;
 	private int horizontal = 0;
 	private int vertical = 0;
 
@@ -103,7 +102,6 @@ public class Player : MovingObject
 		Debug.DrawRay (rb.position, vect, Color.magenta);
 		RaycastHit2D hit = Physics2D.Raycast (rb.position + vect, vect, 0f);
 		if (hit.collider != null) {
-			print (hit.collider.gameObject.name);
 			if (hit.collider.gameObject.name == "GreenBlock(Clone)") {
 				Object.Destroy (hit.collider.gameObject);
 			}

@@ -5,7 +5,7 @@ using System.Collections;
 public abstract class MovingObject : MonoBehaviour
 {
 	public LayerMask blockingLayer;
-	private Rigidbody2D rb;
+	protected Rigidbody2D rb;
 
 	//Protected, virtual functions can be overridden by inheriting classes.
 	protected virtual void Start ()
