@@ -657,6 +657,49 @@ Prefab:
       propertyPath: m_GravityScale
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 212412545053983016, guid: d72c0a1c95baac943847aa2792629f74,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 212412545053983016, guid: d72c0a1c95baac943847aa2792629f74,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 212412545053983016, guid: d72c0a1c95baac943847aa2792629f74,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4175365888126184, guid: d72c0a1c95baac943847aa2792629f74, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4175365888126184, guid: d72c0a1c95baac943847aa2792629f74, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 212412545053983016, guid: d72c0a1c95baac943847aa2792629f74,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212412545053983016, guid: d72c0a1c95baac943847aa2792629f74,
+        type: 2}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212412545053983016, guid: d72c0a1c95baac943847aa2792629f74,
+        type: 2}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212412545053983016, guid: d72c0a1c95baac943847aa2792629f74,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d72c0a1c95baac943847aa2792629f74, type: 2}
   m_IsPrefabParent: 0
@@ -839,6 +882,7 @@ GameObject:
   - component: {fileID: 1835616596}
   - component: {fileID: 1835616595}
   - component: {fileID: 1835616594}
+  - component: {fileID: 1835616598}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -922,6 +966,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &1835616598
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1835616593}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d35015ff96a934e75b13bd0de0bac855, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1936391172 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1856624924349862, guid: d72c0a1c95baac943847aa2792629f74,
@@ -933,7 +994,7 @@ EdgeCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1936391172}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 47eef03f8ea5a1b4db64aa57780117ff, type: 2}
   m_IsTrigger: 0
@@ -942,15 +1003,15 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.4, y: 0.4}
-  - {x: 0.4, y: 0.4}
+  - {x: -0.14108221, y: 0.14710316}
+  - {x: 0.14059271, y: 0.14516333}
 --- !u!68 &1936391178
 EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1936391172}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 47eef03f8ea5a1b4db64aa57780117ff, type: 2}
   m_IsTrigger: 0
@@ -959,15 +1020,15 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.4, y: -0.5}
-  - {x: 0.4, y: -0.5}
+  - {x: -0.15312466, y: -0.13871893}
+  - {x: 0.14710344, y: -0.1447402}
 --- !u!68 &1936391179
 EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1936391172}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 47eef03f8ea5a1b4db64aa57780117ff, type: 2}
   m_IsTrigger: 0
@@ -976,15 +1037,15 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 0.4, y: 0.4}
-  - {x: 0.4, y: -0.4}
+  - {x: 0.13506058, y: 0.14710316}
+  - {x: 0.13506044, y: -0.15312447}
 --- !u!68 &1936391180
 EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1936391172}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 47eef03f8ea5a1b4db64aa57780117ff, type: 2}
   m_IsTrigger: 0
@@ -993,8 +1054,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.4, y: 0.4}
-  - {x: -0.4, y: -0.4}
+  - {x: -0.12301771, y: 0.15914589}
+  - {x: -0.11699662, y: -0.129039}
 --- !u!61 &1936391181
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1007,16 +1068,33 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00000011920929, y: -0.046727896}
+  m_Offset: {x: 0.00000008195639, y: -0.00878644}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 0.28, y: 0.29}
+    newSize: {x: 0.31, y: 0.3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.79718566, y: 0.9065442}
+  m_Size: {x: 0.24322157, y: 0.27669764}
   m_EdgeRadius: 0
+--- !u!95 &1936391182
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1936391172}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 516acd108d9064414ad05579f002c987, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1

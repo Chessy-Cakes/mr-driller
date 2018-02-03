@@ -1,0 +1,2327 @@
+fileFormatVersion: 2
+guid: b2d0c89bb28564132b0f84be2d54b812
+timeCreated: 1517625148
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spritesheet_mrdrillerdeluxe_0
+    21300002: spritesheet_mrdrillerdeluxe_1
+    21300004: spritesheet_mrdrillerdeluxe_2
+    21300006: spritesheet_mrdrillerdeluxe_3
+    21300008: spritesheet_mrdrillerdeluxe_4
+    21300010: spritesheet_mrdrillerdeluxe_5
+    21300012: spritesheet_mrdrillerdeluxe_6
+    21300014: spritesheet_mrdrillerdeluxe_7
+    21300016: spritesheet_mrdrillerdeluxe_8
+    21300018: spritesheet_mrdrillerdeluxe_9
+    21300020: spritesheet_mrdrillerdeluxe_10
+    21300022: spritesheet_mrdrillerdeluxe_11
+    21300024: spritesheet_mrdrillerdeluxe_12
+    21300026: spritesheet_mrdrillerdeluxe_13
+    21300028: spritesheet_mrdrillerdeluxe_14
+    21300030: spritesheet_mrdrillerdeluxe_15
+    21300032: spritesheet_mrdrillerdeluxe_16
+    21300034: spritesheet_mrdrillerdeluxe_17
+    21300036: spritesheet_mrdrillerdeluxe_18
+    21300038: spritesheet_mrdrillerdeluxe_19
+    21300040: spritesheet_mrdrillerdeluxe_20
+    21300042: spritesheet_mrdrillerdeluxe_21
+    21300044: spritesheet_mrdrillerdeluxe_22
+    21300046: spritesheet_mrdrillerdeluxe_23
+    21300048: spritesheet_mrdrillerdeluxe_24
+    21300050: spritesheet_mrdrillerdeluxe_25
+    21300052: spritesheet_mrdrillerdeluxe_26
+    21300054: spritesheet_mrdrillerdeluxe_27
+    21300056: spritesheet_mrdrillerdeluxe_28
+    21300058: spritesheet_mrdrillerdeluxe_29
+    21300060: spritesheet_mrdrillerdeluxe_30
+    21300062: spritesheet_mrdrillerdeluxe_31
+    21300064: spritesheet_mrdrillerdeluxe_32
+    21300066: spritesheet_mrdrillerdeluxe_33
+    21300068: spritesheet_mrdrillerdeluxe_34
+    21300070: spritesheet_mrdrillerdeluxe_35
+    21300072: spritesheet_mrdrillerdeluxe_36
+    21300074: spritesheet_mrdrillerdeluxe_37
+    21300076: spritesheet_mrdrillerdeluxe_38
+    21300078: spritesheet_mrdrillerdeluxe_39
+    21300080: spritesheet_mrdrillerdeluxe_40
+    21300082: spritesheet_mrdrillerdeluxe_41
+    21300084: spritesheet_mrdrillerdeluxe_42
+    21300086: spritesheet_mrdrillerdeluxe_43
+    21300088: spritesheet_mrdrillerdeluxe_44
+    21300090: spritesheet_mrdrillerdeluxe_45
+    21300092: spritesheet_mrdrillerdeluxe_46
+    21300094: spritesheet_mrdrillerdeluxe_47
+    21300096: spritesheet_mrdrillerdeluxe_48
+    21300098: spritesheet_mrdrillerdeluxe_49
+    21300100: spritesheet_mrdrillerdeluxe_50
+    21300102: spritesheet_mrdrillerdeluxe_51
+    21300104: spritesheet_mrdrillerdeluxe_52
+    21300106: spritesheet_mrdrillerdeluxe_53
+    21300108: spritesheet_mrdrillerdeluxe_54
+    21300110: spritesheet_mrdrillerdeluxe_55
+    21300112: spritesheet_mrdrillerdeluxe_56
+    21300114: spritesheet_mrdrillerdeluxe_57
+    21300116: spritesheet_mrdrillerdeluxe_58
+    21300118: spritesheet_mrdrillerdeluxe_59
+    21300120: spritesheet_mrdrillerdeluxe_60
+    21300122: spritesheet_mrdrillerdeluxe_61
+    21300124: spritesheet_mrdrillerdeluxe_62
+    21300126: spritesheet_mrdrillerdeluxe_63
+    21300128: spritesheet_mrdrillerdeluxe_64
+    21300130: spritesheet_mrdrillerdeluxe_65
+    21300132: spritesheet_mrdrillerdeluxe_66
+    21300134: spritesheet_mrdrillerdeluxe_67
+    21300136: spritesheet_mrdrillerdeluxe_68
+    21300138: spritesheet_mrdrillerdeluxe_69
+    21300140: spritesheet_mrdrillerdeluxe_70
+    21300142: spritesheet_mrdrillerdeluxe_71
+    21300144: spritesheet_mrdrillerdeluxe_72
+    21300146: spritesheet_mrdrillerdeluxe_73
+    21300148: spritesheet_mrdrillerdeluxe_74
+    21300150: spritesheet_mrdrillerdeluxe_75
+    21300152: spritesheet_mrdrillerdeluxe_76
+    21300154: spritesheet_mrdrillerdeluxe_77
+    21300156: spritesheet_mrdrillerdeluxe_78
+    21300158: spritesheet_mrdrillerdeluxe_79
+    21300160: spritesheet_mrdrillerdeluxe_80
+    21300162: spritesheet_mrdrillerdeluxe_81
+    21300164: spritesheet_mrdrillerdeluxe_82
+    21300166: spritesheet_mrdrillerdeluxe_83
+    21300168: spritesheet_mrdrillerdeluxe_84
+    21300170: spritesheet_mrdrillerdeluxe_85
+    21300172: spritesheet_mrdrillerdeluxe_86
+    21300174: spritesheet_mrdrillerdeluxe_87
+    21300176: spritesheet_mrdrillerdeluxe_88
+    21300178: spritesheet_mrdrillerdeluxe_89
+    21300180: spritesheet_mrdrillerdeluxe_90
+    21300182: spritesheet_mrdrillerdeluxe_91
+    21300184: spritesheet_mrdrillerdeluxe_92
+    21300186: spritesheet_mrdrillerdeluxe_93
+    21300188: spritesheet_mrdrillerdeluxe_94
+    21300190: spritesheet_mrdrillerdeluxe_95
+    21300192: spritesheet_mrdrillerdeluxe_96
+    21300194: spritesheet_mrdrillerdeluxe_97
+    21300196: spritesheet_mrdrillerdeluxe_98
+    21300198: spritesheet_mrdrillerdeluxe_99
+    21300200: spritesheet_mrdrillerdeluxe_100
+    21300202: spritesheet_mrdrillerdeluxe_101
+    21300204: spritesheet_mrdrillerdeluxe_102
+    21300206: spritesheet_mrdrillerdeluxe_103
+    21300208: spritesheet_mrdrillerdeluxe_104
+    21300210: spritesheet_mrdrillerdeluxe_105
+    21300212: spritesheet_mrdrillerdeluxe_106
+    21300214: spritesheet_mrdrillerdeluxe_107
+    21300216: spritesheet_mrdrillerdeluxe_108
+    21300218: spritesheet_mrdrillerdeluxe_109
+    21300220: spritesheet_mrdrillerdeluxe_110
+    21300222: spritesheet_mrdrillerdeluxe_111
+    21300224: spritesheet_mrdrillerdeluxe_112
+    21300226: spritesheet_mrdrillerdeluxe_113
+    21300228: spritesheet_mrdrillerdeluxe_114
+    21300230: spritesheet_mrdrillerdeluxe_115
+    21300232: spritesheet_mrdrillerdeluxe_116
+    21300234: spritesheet_mrdrillerdeluxe_117
+    21300236: spritesheet_mrdrillerdeluxe_118
+    21300238: spritesheet_mrdrillerdeluxe_119
+    21300240: spritesheet_mrdrillerdeluxe_120
+    21300242: spritesheet_mrdrillerdeluxe_121
+    21300244: spritesheet_mrdrillerdeluxe_122
+    21300246: spritesheet_mrdrillerdeluxe_123
+    21300248: spritesheet_mrdrillerdeluxe_124
+    21300250: spritesheet_mrdrillerdeluxe_125
+    21300252: spritesheet_mrdrillerdeluxe_126
+    21300254: spritesheet_mrdrillerdeluxe_127
+    21300256: spritesheet_mrdrillerdeluxe_128
+    21300258: spritesheet_mrdrillerdeluxe_129
+    21300260: spritesheet_mrdrillerdeluxe_130
+    21300262: spritesheet_mrdrillerdeluxe_131
+    21300264: spritesheet_mrdrillerdeluxe_132
+    21300266: spritesheet_mrdrillerdeluxe_133
+    21300268: spritesheet_mrdrillerdeluxe_134
+    21300270: spritesheet_mrdrillerdeluxe_135
+    21300272: spritesheet_mrdrillerdeluxe_136
+    21300274: spritesheet_mrdrillerdeluxe_137
+    21300276: spritesheet_mrdrillerdeluxe_138
+    21300278: spritesheet_mrdrillerdeluxe_139
+    21300280: spritesheet_mrdrillerdeluxe_140
+    21300282: spritesheet_mrdrillerdeluxe_141
+    21300284: spritesheet_mrdrillerdeluxe_142
+    21300286: spritesheet_mrdrillerdeluxe_143
+    21300288: spritesheet_mrdrillerdeluxe_144
+    21300290: spritesheet_mrdrillerdeluxe_145
+    21300292: spritesheet_mrdrillerdeluxe_146
+    21300294: spritesheet_mrdrillerdeluxe_147
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 559
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 559
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 558
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 556
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 559
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_5
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 557
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 560
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_7
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 559
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_8
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 558
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_9
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 558
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_10
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 564
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_11
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 558
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 518
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 518
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 515
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_15
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 520
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_16
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 519
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_17
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 516
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_18
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 521
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_19
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 517
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_20
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 516
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 481
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_22
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 481
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_23
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 482
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_24
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 482
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_25
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 482
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_26
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 482
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_27
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 484
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_28
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 493
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_29
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 442
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_30
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 442
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_31
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 442
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_32
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 443
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_33
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 443
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_34
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 443
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_35
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 443
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_36
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 443
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_37
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 443
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_38
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 403
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_39
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 403
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_40
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 403
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_41
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 403
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_42
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 404
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_43
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 404
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_44
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 404
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_45
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 404
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_46
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 404
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_47
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 404
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_48
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 404
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_49
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 404
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 364
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_51
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 365
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_52
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 364
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_53
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 365
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_54
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 366
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_55
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 365
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_56
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 366
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_57
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 365
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_58
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 365
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_59
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 365
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_60
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 365
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_61
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 365
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_63
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 310
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_64
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 309
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_65
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 309
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_66
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 311
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_67
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 311
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_68
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 337
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_69
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 337
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_70
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 311
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_71
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 311
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_72
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 312
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_73
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 310
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_74
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 309
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_75
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 308
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_76
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 270
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_77
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 270
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_78
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 267
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_79
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 272
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_80
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 271
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_81
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 233
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_82
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 272
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_83
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 271
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_84
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 270
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_85
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 234
+        width: 27
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_86
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 233
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_87
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 233
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_88
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 233
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_89
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 233
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_90
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 233
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_91
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 233
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_92
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 234
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_93
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 234
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_94
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 194
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_95
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 194
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_96
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 194
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_97
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 194
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_98
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 198
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_99
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 198
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_100
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 195
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_101
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 195
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_102
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 195
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_103
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 155
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_104
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 154
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_105
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 154
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_106
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 154
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_107
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 155
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_108
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 154
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_109
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 155
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_110
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 155
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_111
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 156
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_112
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 156
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_113
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 156
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_114
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 156
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_115
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 116
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_116
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 116
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_117
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 116
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_118
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 116
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_119
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 116
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_120
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 116
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_121
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 116
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_122
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 116
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_123
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 117
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_124
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 117
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_125
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 117
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_126
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 118
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_128
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 71
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_129
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 71
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_130
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 71
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_131
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 11
+        width: 154
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_132
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 78
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_133
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 78
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_134
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 78
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 43
+        width: 81
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_136
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 39
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_137
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 39
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_138
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 39
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_139
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 39
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_140
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 17
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_141
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 17
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_142
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 17
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_143
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 17
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_144
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_145
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_146
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet_mrdrillerdeluxe_147
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

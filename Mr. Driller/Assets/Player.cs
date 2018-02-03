@@ -9,12 +9,16 @@ public class Player : MovingObject
 	private Vector2 touchOrigin = -Vector2.one;
 	private int horizontal = 0;
 	private int vertical = 0;
+  private Animator animator;
+  private SpriteRenderer spriterenderer;
 
 	public int speed = 1;
 
 	protected override void Start ()
 	{
 		rb = GetComponent<Rigidbody2D> ();
+    animator = this.GetComponent<Animator>();
+    spriterenderer = this.GetComponent<SpriteRenderer> ();
 		base.Start ();
 	}
 
@@ -40,8 +44,10 @@ public class Player : MovingObject
 			vertical = 0; //speed
 		} else if (Input.GetKey ("down")) {
 			vertical = -speed;
+      animator.SetInteger ("direction_y", 2);
 		} else {
 			vertical = 0;
+      animator.SetInteger ("direction_y", 0);
 		}
 
 		// Check if we are running on iOS, Android, Windows Phone 8 or Unity iPhone
@@ -90,6 +96,12 @@ public class Player : MovingObject
 			horizontal = 0;
 		}
 
+    if (horizontal != 0) {
+      animator.SetInteger ("direction_x", 2);
+    } else {
+      animator.SetInteger ("direction_x", 0);
+    }
+
 		AttemptMove<Component> (horizontal, vertical);
 	}
 
@@ -110,6 +122,11 @@ public class Player : MovingObject
 	protected override void AttemptMove <T> (int xDir, int yDir)
 	{
 		base.AttemptMove <T> (xDir, yDir);
+    if (xDir > 0) {
+      spriterenderer.flipX = true;
+    } else if (xDir < 0) {
+      spriterenderer.flipX = false;
+    }
 	}
 
 	protected override void OnCantMove (int xDir, int yDir)
