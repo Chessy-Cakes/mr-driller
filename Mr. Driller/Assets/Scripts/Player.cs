@@ -113,8 +113,16 @@ public class Player : MovingObject
 		Debug.DrawRay (rb.position, vect, Color.magenta);
 		RaycastHit2D hit = Physics2D.Raycast (rb.position + vect, vect, 0f);
 		if (hit.collider != null) {
-			if (hit.collider.gameObject.name == "GreenBlock(Clone)") {
-				Object.Destroy (hit.collider.gameObject);
+      if (hit.collider.gameObject.name == "GreenBlock(Clone)" ||
+          hit.collider.gameObject.name == "PinkBlock(Clone)" ||
+          hit.collider.gameObject.name == "BlueBlock(Clone)" ||
+          hit.collider.gameObject.name == "YellowBlock(Clone)") {
+        if (hit.collider.gameObject.GetComponent<Block> () != null) {
+          Block block = hit.collider.gameObject.GetComponent<Block>();
+          block.DestroyBlock ();
+        } else {
+          Object.Destroy (hit.collider.gameObject);
+        }
 			}
 		}
 	}

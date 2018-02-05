@@ -6,6 +6,9 @@ public class LevelGenerator : MonoBehaviour
 {
 
   public GameObject greenBlockPrefab;
+  public GameObject pinkBlockPrefab;
+  public GameObject yellowBlockPrefab;
+  public GameObject blueBlockPrefab;
 
   public GameObject playerPrefab;
   public GameObject player;
@@ -26,6 +29,9 @@ public class LevelGenerator : MonoBehaviour
   {
 
     greenBlockPrefab.SetActive (false); // Deactivate prefab so it does not affect the scene
+    blueBlockPrefab.SetActive (false); // Deactivate prefab so it does not affect the scene
+    yellowBlockPrefab.SetActive (false); // Deactivate prefab so it does not affect the scene
+    pinkBlockPrefab.SetActive (false); // Deactivate prefab so it does not affect the scene
 
     playerPrefab.SetActive (false);
 
@@ -33,7 +39,24 @@ public class LevelGenerator : MonoBehaviour
     for (int row = 0; row < levelSubHeight; row++) {
       for (int col = 0; col < levelWidth; col++) {
         Vector3 spawnPosition = new Vector3 (col, -row);
-        GameObject block = Instantiate (greenBlockPrefab, spawnPosition, Quaternion.identity) as GameObject;
+        int random = Random.Range (1, 5);
+        GameObject block = new GameObject();
+        switch (random) {
+        case 1:
+          block = Instantiate (greenBlockPrefab, spawnPosition, Quaternion.identity) as GameObject;
+          break;
+        case 2:
+          block = Instantiate (blueBlockPrefab, spawnPosition, Quaternion.identity) as GameObject;
+          break;
+        case 3:
+          block = Instantiate (yellowBlockPrefab, spawnPosition, Quaternion.identity) as GameObject;
+          break;
+        case 4:
+          block = Instantiate (pinkBlockPrefab, spawnPosition, Quaternion.identity) as GameObject;
+          break;
+        default:
+          break;
+        }
         block.SetActive (true);
       }
     }
