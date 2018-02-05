@@ -1,14 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Block : MonoBehaviour
+public class Block : EnvironmentObject
 {
-  protected Rigidbody2D rb;
   bool toBeDestroyed = false;
 
-  void Start()
+  protected override void Start()
   {
-    rb = GetComponent<Rigidbody2D> ();
+    base.Start ();
+  }
+
+  public override void AttemptDestroy() {
+    DestroyBlock ();
   }
 
   public void DestroyBlock()
@@ -21,12 +24,11 @@ public class Block : MonoBehaviour
     Object.Destroy (this.gameObject);
   }
 
-  public bool willBeDestroyed() {
+  public virtual bool willBeDestroyed() {
     return toBeDestroyed;
   }
 
-  private void CheckHit(Vector2 vect) {
-    Debug.DrawRay (rb.position, vect, Color.green);
+  protected void CheckHit(Vector2 vect) {
     RaycastHit2D hit = Physics2D.Raycast (rb.position + vect, vect, 0f);
     if (hit.collider != null) {
       if (hit.collider.gameObject.name == this.gameObject.name) {

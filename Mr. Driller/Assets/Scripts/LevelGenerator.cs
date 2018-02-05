@@ -40,7 +40,7 @@ public class LevelGenerator : MonoBehaviour
       for (int col = 0; col < levelWidth; col++) {
         Vector3 spawnPosition = new Vector3 (col, -row);
         int random = Random.Range (1, 5);
-        GameObject block = new GameObject();
+        GameObject block = new GameObject ();
         switch (random) {
         case 1:
           block = Instantiate (greenBlockPrefab, spawnPosition, Quaternion.identity) as GameObject;
@@ -66,7 +66,7 @@ public class LevelGenerator : MonoBehaviour
     this.player.SetActive (true);
         
     m_MainCamera = Camera.main;
-    m_MainCamera.GetComponent<CameraFollow>().target = this.player;
+    m_MainCamera.GetComponent<CameraFollow> ().target = this.player;
        
   }
 	
